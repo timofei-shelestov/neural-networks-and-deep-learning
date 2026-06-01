@@ -1,0 +1,16 @@
+[project]
+name = "neural-networks-and-deep-learning"
+version = "0.1.0"
+description = "Code samples for 'Neural Networks and Deep Learning'"
+requires-python = ">=3.8,<3.11"
+dependencies = [
+    "numpy<1.22",
+    "matplotlib~=3.0",
+    "scikit-learn<1.1",
+    "scipy~=1.0",
+    "theano",
+    "ipython>=8.12.3",
+]
+
+[tool.ty.environment]
+root = ["./src"]
